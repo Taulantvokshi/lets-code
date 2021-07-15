@@ -1,0 +1,47 @@
+.editor {
+  font-size: 1.6rem;
+  grid-column: col-end 4 / -1;
+  grid-row: 2/-1;
+}
+.code-mirror-wrap {
+  width: 60rem;
+  box-sizing: content-box;
+}
+.editor-code_results {
+  background-color: #263238;
+  font-size: 1.5rem;
+  padding: 2rem;
+  width: 60rem;
+  height: 20rem;
+  border-top: 2px solid grey;
+}
+.center-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.editor-btn {
+  display: flex;
+  // justify-content: flex-end;
+  margin-top: 2rem;
+  button {
+    border: none;
+    height: 4rem;
+    width: 13rem;
+    background-color: tomato;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
+
+.CodeMirror-lines {
+  margin-top: 1rem;
+}
+.CodeMirror-scroll {
+  height: 10rem;
+}
+.CodeMirror {
+  height: 25rem;
+}

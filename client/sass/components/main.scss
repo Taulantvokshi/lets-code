@@ -1,0 +1,17 @@
+.app {
+  height: 100vh;
+  background-color: #393e46;
+}
+.coding-env {
+  margin-top: 10rem;
+  display: grid;
+
+  grid-template-rows: 5rem repeat(2, 25rem);
+
+  grid-template-columns:
+    [full-start]minmax(10px, 1fr) [center-start] repeat(
+      9,
+      [col-start] minmax(min-content, 120px) [col-end]
+    )
+    [center-end] minmax(10px, 1fr) [full-end];
+}
